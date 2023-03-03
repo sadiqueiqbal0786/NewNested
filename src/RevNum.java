@@ -1,2 +1,15 @@
-package PACKAGE_NAME;public class RevNum {
+public class RevNum implements Reverse{
+    int num;
+    RevNum(int num){
+        this.num=num;
+    }
+    @Override
+    public int reverse() {
+        int rev_num = 0;
+        while (num > 0) {
+            rev_num = rev_num * 10 + num % 10;
+            num = num / 10;
+        }
+        return rev_num;
+    }
 }

@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Marks {
+public interface Marks {
+    int marks();
 }

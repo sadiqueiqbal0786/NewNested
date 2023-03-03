@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Reverse {
+public interface Reverse {
+    int reverse();
 }

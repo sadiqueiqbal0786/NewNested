@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface Triang {
+public interface Triang {
+    int area();
+    int perimeter();
 }
